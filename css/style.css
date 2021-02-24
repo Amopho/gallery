@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Oswald";
+  src: url("../fonts/Oswald-VariableFont_wght.ttf");
+}
+:root {
+  font-family: "Oswald";
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  color: salmon;
+}
+
+.grid-container {
+  columns: 2 200px;
+  column-gap: 1.5rem;
+  margin: 0 auto;
+  border: none;
+}
+  div {
+    margin: 0 1.5rem 1.5rem 0;
+    display: inline-block;
+    width: 100%;
+    border: solid 2px black;
+    padding: 5px;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 20px;
+}
+    img {
+      width: 100%;
+      filter: grayscale(100%);
+      border-radius: 30px;
+      transition: all 0.25s ease-in-out;
+    }
+    p {
+        margin: 5px 0;
+        padding: 0;
+        text-align: center;
+        font-style: italic;
+      }
+  }
+}
